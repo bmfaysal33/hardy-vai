@@ -11,6 +11,9 @@
 
 
 
+
+/* Navigation styles start here  */
+
 nav {
     display: flex;
     flex-direction: row;
@@ -68,4 +71,78 @@ nav button {
     border-radius: 5px;
     background: rgb(253, 110, 10);
     cursor: pointer;
+}
+
+
+/* Banner section starts Here  */
+
+
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: rgb(255, 248, 243);
+}
+
+#banner1>h3 {
+
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+#banner1>h2 {
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    font-weight: 700;
+}
+
+#banner1>p {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#banner1 {
+
+    margin-left: 80px;
+    /* border: 2px solid; */
+}
+
+#banner-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 44px;
+    margin-top: 30px;
+}
+
+#banner-btn1 button {
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    padding: 18px 36px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+
+
+}
+
+#banner-btn2 button {
+    background-color: transparent;
+    padding: 18px 36px;
+    border-radius: 5px;
+    border: 2px solid rgb(253, 110, 10);
+    color: rgb(253, 110, 10);
+    cursor: pointer;
+
 }
