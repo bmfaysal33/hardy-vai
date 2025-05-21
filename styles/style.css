@@ -113,14 +113,14 @@ nav button {
 #banner1 {
 
     margin-left: 80px;
-    /* border: 2px solid; */
+
 }
 
 #banner-btn {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: space-between; */
+
     gap: 44px;
     margin-top: 30px;
 }
@@ -145,4 +145,60 @@ nav button {
     color: rgb(253, 110, 10);
     cursor: pointer;
 
+}
+
+
+/* About Section Starts Here  */
+
+
+
+.about {
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    margin: 30px auto;
+    padding: 131px 157px;
+    width: 1140px;
+}
+
+.about1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.about1 h3 {
+    color: rgb(24, 24, 24);
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about1 p {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.about2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-item {
+    text-align: center;
+    margin-right: 24px;
+}
+
+
+
+.about2 .item-text {
+    font-weight: 700;
+    /* font-size: 30px; */
 }
