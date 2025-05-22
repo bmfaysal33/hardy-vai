@@ -295,17 +295,17 @@ nav button {
 
 .sum-btn {
     margin-top: 50px;
-    
+
 }
 
-.sum-btn button{
-border-radius: 5px;
+.sum-btn button {
+    border-radius: 5px;
     padding: 18px 19px;
     border: none;
     color: white;
     font-size: 20px;
-font-weight: 700;
-cursor: pointer;
+    font-weight: 700;
+    cursor: pointer;
 
     background: rgb(253, 110, 10);
 }
@@ -333,3 +333,33 @@ cursor: pointer;
 .experience-description {
     color: rgb(117, 117, 117);
 }
+
+
+
+/* Footer Section starts Here  */
+
+
+
+
+.build {
+    background: rgb(255, 248, 243);
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot1 , .foot2{
+    margin: 130px 0;
+}
+
+.foot1 h2, .foot2 h2 {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.foot1 > p{
+    color: rgb(71, 71, 71);
+font-size: 16px;
+font-weight: 400;
+}
+
