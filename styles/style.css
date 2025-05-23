@@ -10,6 +10,10 @@
 }
 
 
+::selection {
+    background-color: rgba(0, 128, 0, 0.377);
+}
+
 
 
 /* Navigation styles start here  */
@@ -298,7 +302,7 @@ nav button {
 
 }
 
-.sum-btn button {
+.sum-btn button , .foot2 button {
     border-radius: 5px;
     padding: 18px 19px;
     border: none;
@@ -341,25 +345,80 @@ nav button {
 
 
 
-.build {
+.footer {
     background: rgb(255, 248, 243);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: start;
+    margin-top: 113px;
 }
 
-.foot1 , .foot2{
-    margin: 130px 0;
+.foot1,
+.foot2 {
+    margin: 130px 120px;
 }
 
-.foot1 h2, .foot2 h2 {
+
+
+.foot1 h2,
+.foot2 h2 {
     color: rgb(24, 24, 24);
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 
-.foot1 > p{
+.foot1>p {
     color: rgb(71, 71, 71);
-font-size: 16px;
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 
+.foot-img{
+      display: flex;
+      justify-content: space-around;
+      width: 120px;
+}
+
+.foot-img img{
+    cursor: pointer;
+}
+
+.foot2-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.foot2-inputs input,
+textarea {
+    margin-bottom: 24px;
+    border-radius: 5px;
+    outline-color: rgb(253, 110, 10);
+    text-align: left;
+    border: none;
+    padding: 8px 12px;
+    width: 461px;
+    height: 64px;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+textarea {
+    width: 461px;
+    height: 180px;
+}
+
+
+
+
+.foot2 button{
+    width: 150px;
+height: 64px;
+}
