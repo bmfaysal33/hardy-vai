@@ -299,7 +299,6 @@ nav button {
 
 .sum-btn {
     margin-top: 50px;
-
 }
 
 .sum-btn button , .foot2 button {
@@ -310,7 +309,6 @@ nav button {
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
-
     background: rgb(253, 110, 10);
 }
 
@@ -339,11 +337,7 @@ nav button {
 }
 
 
-
 /* Footer Section starts Here  */
-
-
-
 
 .footer {
     background: rgb(255, 248, 243);
@@ -416,9 +410,37 @@ textarea {
 }
 
 
-
-
 .foot2 button{
     width: 150px;
 height: 64px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
