@@ -431,35 +431,8 @@ textarea {
 
 
 /* Responsive Design for Do Section   */
-@media screen and (max-width: 576px) {
-    
-    .do {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .do2{
-        
-        flex-direction: column;
-        gap: 30px;
-        
-    }
-}
 
 
-/* Summary Responsiveness  */
-
-
-@media screen and (max-width: 576px) {
-    .summary1{
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
-    
-    
-    
-    
-}
 
 
 
