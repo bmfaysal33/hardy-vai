@@ -5,7 +5,35 @@
 
 
 
+
+
+
+
 @media screen and (max-width: 576px) {
+
+.about{
+    width: 100%;
+    padding: 0 20px;
+    margin: 90px auto;
+}
+.about1{
+
+    border-radius: 10px;
+}
+.about2{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+    /* Do Section Done */
     
     .do {
         width: 100%;
@@ -28,6 +56,33 @@
         align-items: center;
         gap: 30px;
     }
+
+    /* Footer Section  */
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .foot1,
+.foot2 {
+    margin: 30px 20px;
+}
+
+.foot2-inputs input,
+textarea {
+   
+  
+    padding: 8px 12px;
+    width: 100%;
+   
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
 
 
 
